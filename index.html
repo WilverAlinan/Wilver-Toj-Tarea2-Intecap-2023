@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarea2</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+</head>
+<header class="container" style="padding: 10px;">
+    <h4>Tarea Numero 2</h4>
+    <h4>Wilver Antonio Toj Alinan</h4>
+    <br>
+</header>
+
+<body class="container" style="background-color: beige;">
+
+    <div class="container">
+        <form style="padding: 10px;">
+            <div class="form-group">
+                <h5>Identificar Un Palindromo</h5>
+
+                <label>Ingrese una Palabra</label>
+                <br>
+                <input type="text" name="palindromo1" id="palindromo1" class="form-control" required
+                    placeholder="Ingrese una Palabra">
+                <br>
+                <button type="button" id="btnPalindromo" class="bg-secondary">Palindromo</button>
+            </div>
+        </form>
+        <p id="resultadoPalindromo" style="background-color: aqua; color: red; font-weight: bold;"></p>
+    </div>
+
+    <div class="container">
+        <form style="padding: 10px;">
+            <div class="form-group">
+                <h5>Sustituir Vocales por un Simbolo</h5>
+                <label>Ingrese Nombre Completo</label>
+                <br>
+                <input type="text" name="nombre1" id="nombreCompleto" class="form-control" required
+                    placeholder="Ingrese Nombre Completo">
+                <br>
+                <label>Ingrese un Simbolo</label>
+                <br>
+                <input type="text" name="simbolo1" id="simboloReemplazo" class="form-control" required
+                    placeholder="Ingrese un Simbolo">
+                <br>
+                <button type="button" id="btnSimbolo" class="bg-secondary">Sustituir Vocales</button>
+            </div>
+        </form>
+        <p id="resultadoSimbolo" style="background-color: aqua; color: red; font-weight: bold;"></p>
+    </div>
+
+    <div class="container">
+        <div class="form-group">
+            <form style="padding: 10px;">
+                <h5>Calcular la Edad Exacta de una Persona</h5>
+                <label>Ingrese Nombre Completo</label>
+                <br>
+                <input type="text" name="nombre2" id="nombreCalcularEdad" class="form-control" required
+                    placeholder="Ingrese Nombre Completo">
+                <br>
+                <label>Ingrese fecha de Nacimiento</label>
+                <br>
+                <input type="date" name="edad" id="fechaCalcularEdad" class="form-control" required>
+                <br>
+                <button type="button" id="btnCalcularEdad" class="bg-secondary">Calcular Edad</button>
+        </div>
+        </form>
+        <p id="resultadoEdad" style="background-color: aqua; color: red; font-weight: bold;"></p>
+
+    </div>
+
+    <div class="container">
+        <div class="form-group">
+            <form style="padding: 10px;">
+                <h5>Mostrar los Numeros del 1 a 100 e Identificar los Numeros Primos</h5>
+                <label>Presione Mostrar los Numeros Primos</label>
+                <br>
+                <button type="button" id="btnPrimos" class="bg-secondary">Mostrar Numeros Primos</button>
+        </div>
+        </form>
+        <line id="resultadoPrimo" style="background-color: aqua; font-weight: bold;">
+    </div>
+    <footer class="container" style="margin-top:30px;">
+        <br>
+        <br>
+    </footer>
+
+    <div>
+        <script src="./JsTarea/palindromo.js"></script>
+        <script src="./JsTarea/simbolo.js"></script>
+        <script src="./JsTarea/calcularEdad.js"></script>
+        <script src="./JsTarea/numerosPrimos.js"></script>
+        <script src="./js/bootstrap.min.js"></script>
+</body>
+
+</html>
